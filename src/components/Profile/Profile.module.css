@@ -59,13 +59,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  /* gap: 2px; */
   border-right: 2px solid #858484;
+  padding: 10px 5px;
 }
 
 .userStatsInfo :last-child {
   border-right: none;
 }
 
+.userStatsInfoText {
+  font-size: 15px;
+}
+
 .userStatsInfoValue {
+  font-size: 15px;
   font-weight: 700;
 }
