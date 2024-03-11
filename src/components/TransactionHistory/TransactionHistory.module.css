@@ -1,0 +1,21 @@
+.transactionHistoryTable {
+  margin: 40px auto;
+  width: 300px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.transactionMenuInfo {
+  /* background-color: #312f2f; */
+  border: 1px solid black;
+}
+
+.transactionMenuInfoList {
+  /* border: 1px solid black; */
+}
+
+@media screen and (min-width: 768px) {
+  .transactionHistoryTable {
+    width: 600px;
+  }
+}
