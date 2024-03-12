@@ -22,7 +22,7 @@
   border-right: none;
 }
 
-.transactionMenuValueCells:nth-child(n + 3):nth-child(odd) {
+.transactionMenuValueCells:nth-child(even) {
   background-color: #c2c1c1;
 }
 

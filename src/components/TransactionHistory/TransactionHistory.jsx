@@ -11,17 +11,17 @@ const TransactionHistory = ({ items }) => {
         </tr>
       </thead>
 
-      {items.map((item) => {
-        return (
-          <tbody className={css.transactionMenuValueCells} key={item.id}>
-            <tr>
+      <tbody>
+        {items.map((item) => {
+          return (
+            <tr className={css.transactionMenuValueCells} key={item.id}>
               <td className={css.transactionMenuValue}>{item.type}</td>
               <td className={css.transactionMenuValue}>{item.amount}</td>
               <td className={css.transactionMenuValue}>{item.currency}</td>
             </tr>
-          </tbody>
-        );
-      })}
+          );
+        })}
+      </tbody>
     </table>
   );
 };
