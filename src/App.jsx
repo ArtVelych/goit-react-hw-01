@@ -1,5 +1,6 @@
 // import clsx from "clsx";
 import Profile from "./components/Profile/Profile";
+import FriendList from "./components/FriendList/FriendList";
 import userData from "../src/userData.json";
 import friends from "../src/friends.json";
 
